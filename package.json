@@ -1,7 +1,7 @@
 {
-  "name": "kxmall",
+  "name": "marisa-shop",
   "version": "4.5.0",
-  "description": "kxmall后台管理系统",
+  "description": "古风小铺后台管理系统",
   "author": "LionLi",
   "license": "MIT",
   "scripts": {

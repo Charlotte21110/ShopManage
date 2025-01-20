@@ -1,13 +1,11 @@
 ## 开发
 
-```bash
-# 克隆项目
-git clone https://gitee.com/y_project/WMShop-Vue
+配套本地的后端接口使用
 
-# 进入项目目录
-cd kxmall-ui
+```bash
 
 # 安装依赖
+node 18.18.0
 npm install
 
 # 建议不要直接使用 cnpm 安装依赖，会有各种诡异的 bug。可以通过如下操作解决 npm 下载速度慢的问题
