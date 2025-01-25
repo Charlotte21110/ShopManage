@@ -14,11 +14,7 @@
           label-position="left"
         >
           <div style="text-align: center">
-            <img
-              class="logo-right"
-              src="@/assets/images/login/loginRightLogo.png"
-              alt=""
-            />
+            华夏遗韵阁后台
           </div>
           <el-form-item prop="username">
             <el-input

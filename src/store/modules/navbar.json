@@ -1,0 +1,578 @@
+{
+    "code": 200,
+    "msg": "操作成功",
+    "data": [
+        {
+            "name": "/order",
+            "path": "//order",
+            "hidden": false,
+            "redirect": "noRedirect",
+            "component": "Layout",
+            "alwaysShow": true,
+            "meta": {
+                "title": "运营管理",
+                "icon": "orderinfo",
+                "noCache": false,
+                "link": null
+            },
+            "children": [
+                {
+                    "name": "StoreOrder",
+                    "path": "storeOrder",
+                    "hidden": false,
+                    "component": "order/storeOrder/index",
+                    "meta": {
+                        "title": "订单管理",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    }
+                },
+                {
+                    "name": "StoreAppraise",
+                    "path": "storeAppraise",
+                    "hidden": false,
+                    "component": "order/storeAppraise/index",
+                    "meta": {
+                        "title": "评论管理",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    }
+                }
+            ]
+        },
+        {
+            "name": "/storage",
+            "path": "//storage",
+            "hidden": false,
+            "redirect": "noRedirect",
+            "component": "Layout",
+            "alwaysShow": true,
+            "meta": {
+                "title": "前置仓管理",
+                "icon": "nested",
+                "noCache": false,
+                "link": null
+            },
+            "children": [
+                {
+                    "name": "Storage",
+                    "path": "storage",
+                    "hidden": false,
+                    "component": "storage/storage/index",
+                    "meta": {
+                        "title": "前置仓资料",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    }
+                },
+                {
+                    "name": "Stock",
+                    "path": "stock",
+                    "hidden": false,
+                    "component": "storage/stock/index",
+                    "meta": {
+                        "title": "前置仓商品",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    }
+                },
+                {
+                    "name": "/stockWarning",
+                    "path": "/stockWarning",
+                    "hidden": false,
+                    "component": "storage/stockWarning/index",
+                    "meta": {
+                        "title": "库存监控",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    }
+                },
+                {
+                    "name": "GoodsInStock",
+                    "path": "goodsInStock",
+                    "hidden": false,
+                    "component": "storage/goodsInStock/index",
+                    "meta": {
+                        "title": "商品入库",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    }
+                },
+                {
+                    "name": "GoodsOutStock",
+                    "path": "goodsOutStock",
+                    "hidden": false,
+                    "component": "storage/goodsOutStock/index",
+                    "meta": {
+                        "title": "商品出库",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    }
+                }
+            ]
+        },
+        {
+            "name": "/carousel",
+            "path": "//carousel",
+            "hidden": false,
+            "redirect": "noRedirect",
+            "component": "Layout",
+            "alwaysShow": true,
+            "meta": {
+                "title": "轮播管理",
+                "icon": "news",
+                "noCache": false,
+                "link": null
+            },
+            "children": [
+                {
+                    "name": "Carousel",
+                    "path": "carousel",
+                    "hidden": false,
+                    "component": "carousel/carousel/index",
+                    "meta": {
+                        "title": "轮播管理",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    }
+                }
+            ]
+        },
+        {
+            "name": "/product",
+            "path": "//product",
+            "hidden": false,
+            "redirect": "noRedirect",
+            "component": "Layout",
+            "alwaysShow": true,
+            "meta": {
+                "title": "商品管理",
+                "icon": "server",
+                "noCache": false,
+                "link": null
+            },
+            "children": [
+                {
+                    "name": "StoreProduct",
+                    "path": "storeProduct",
+                    "hidden": false,
+                    "component": "product/storeProduct/index",
+                    "meta": {
+                        "title": "商品列表",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    }
+                },
+                {
+                    "name": "StoreCategory",
+                    "path": "storeCategory",
+                    "hidden": false,
+                    "component": "product/storeCategory/index",
+                    "meta": {
+                        "title": "商品分类",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    }
+                },
+                {
+                    "name": "StoreProductRule",
+                    "path": "storeProductRule",
+                    "hidden": false,
+                    "component": "product/storeProductRule/index",
+                    "meta": {
+                        "title": "商品规格",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    }
+                }
+            ]
+        },
+        {
+            "name": "/recommend",
+            "path": "//recommend",
+            "hidden": false,
+            "redirect": "noRedirect",
+            "component": "Layout",
+            "alwaysShow": true,
+            "meta": {
+                "title": "推广管理",
+                "icon": "cascader",
+                "noCache": false,
+                "link": null
+            },
+            "children": [
+                {
+                    "name": "Recommend",
+                    "path": "recommend",
+                    "hidden": false,
+                    "component": "recommend/recommend/index",
+                    "meta": {
+                        "title": "推荐管理",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    }
+                }
+            ]
+        },
+        {
+            "name": "/user",
+            "path": "//user",
+            "hidden": false,
+            "redirect": "noRedirect",
+            "component": "Layout",
+            "alwaysShow": true,
+            "meta": {
+                "title": "会员管理",
+                "icon": "github",
+                "noCache": false,
+                "link": null
+            },
+            "children": [
+                {
+                    "name": "User",
+                    "path": "user",
+                    "hidden": false,
+                    "component": "user/user/index",
+                    "meta": {
+                        "title": "会员用户",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    }
+                },
+                {
+                    "name": "UserBill",
+                    "path": "userBill",
+                    "hidden": false,
+                    "component": "user/userBill/index",
+                    "meta": {
+                        "title": "用户账单",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    }
+                }
+            ]
+        },
+        {
+            "name": "/setting",
+            "path": "//setting",
+            "hidden": false,
+            "redirect": "noRedirect",
+            "component": "Layout",
+            "alwaysShow": true,
+            "meta": {
+                "title": "商城配置",
+                "icon": "web",
+                "noCache": false,
+                "link": null
+            },
+            "children": [
+                {
+                    "name": "Notice",
+                    "path": "notice",
+                    "hidden": false,
+                    "component": "system/notice/index",
+                    "meta": {
+                        "title": "通知公告",
+                        "icon": "message",
+                        "noCache": false,
+                        "link": null
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Tool",
+            "path": "/tool",
+            "hidden": false,
+            "redirect": "noRedirect",
+            "component": "Layout",
+            "alwaysShow": true,
+            "meta": {
+                "title": "系统工具",
+                "icon": "tool",
+                "noCache": false,
+                "link": null
+            },
+            "children": [
+                {
+                    "name": "Build",
+                    "path": "build",
+                    "hidden": false,
+                    "component": "tool/build/index",
+                    "meta": {
+                        "title": "表单构建",
+                        "icon": "build",
+                        "noCache": false,
+                        "link": null
+                    }
+                },
+                {
+                    "name": "Gen",
+                    "path": "gen",
+                    "hidden": false,
+                    "component": "tool/gen/index",
+                    "meta": {
+                        "title": "代码生成",
+                        "icon": "code",
+                        "noCache": false,
+                        "link": null
+                    }
+                }
+            ]
+        },
+        {
+            "name": "System",
+            "path": "/system",
+            "hidden": false,
+            "redirect": "noRedirect",
+            "component": "Layout",
+            "alwaysShow": true,
+            "meta": {
+                "title": "系统管理",
+                "icon": "system",
+                "noCache": false,
+                "link": null
+            },
+            "children": [
+                {
+                    "name": "User",
+                    "path": "user",
+                    "hidden": false,
+                    "component": "system/user/index",
+                    "meta": {
+                        "title": "用户管理",
+                        "icon": "user",
+                        "noCache": false,
+                        "link": null
+                    }
+                },
+                {
+                    "name": "Role",
+                    "path": "role",
+                    "hidden": false,
+                    "component": "system/role/index",
+                    "meta": {
+                        "title": "角色管理",
+                        "icon": "peoples",
+                        "noCache": false,
+                        "link": null
+                    }
+                },
+                {
+                    "name": "Menu",
+                    "path": "menu",
+                    "hidden": false,
+                    "component": "system/menu/index",
+                    "meta": {
+                        "title": "菜单管理",
+                        "icon": "tree-table",
+                        "noCache": false,
+                        "link": null
+                    }
+                },
+                {
+                    "name": "Dept",
+                    "path": "dept",
+                    "hidden": false,
+                    "component": "system/dept/index",
+                    "meta": {
+                        "title": "部门管理",
+                        "icon": "tree",
+                        "noCache": false,
+                        "link": null
+                    }
+                },
+                {
+                    "name": "Post",
+                    "path": "post",
+                    "hidden": false,
+                    "component": "system/post/index",
+                    "meta": {
+                        "title": "岗位管理",
+                        "icon": "post",
+                        "noCache": false,
+                        "link": null
+                    }
+                },
+                {
+                    "name": "Dict",
+                    "path": "dict",
+                    "hidden": false,
+                    "component": "system/dict/index",
+                    "meta": {
+                        "title": "字典管理",
+                        "icon": "dict",
+                        "noCache": false,
+                        "link": null
+                    }
+                },
+                {
+                    "name": "Config",
+                    "path": "config",
+                    "hidden": false,
+                    "component": "system/config/index",
+                    "meta": {
+                        "title": "参数设置",
+                        "icon": "edit",
+                        "noCache": false,
+                        "link": null
+                    }
+                },
+                {
+                    "name": "Log",
+                    "path": "log",
+                    "hidden": false,
+                    "redirect": "noRedirect",
+                    "component": "ParentView",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "日志管理",
+                        "icon": "log",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "Operlog",
+                            "path": "operlog",
+                            "hidden": false,
+                            "component": "monitor/operlog/index",
+                            "meta": {
+                                "title": "操作日志",
+                                "icon": "form",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "Logininfor",
+                            "path": "logininfor",
+                            "hidden": false,
+                            "component": "monitor/logininfor/index",
+                            "meta": {
+                                "title": "登录日志",
+                                "icon": "logininfor",
+                                "noCache": false,
+                                "link": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Oss",
+                    "path": "oss",
+                    "hidden": false,
+                    "component": "system/oss/index",
+                    "meta": {
+                        "title": "文件管理",
+                        "icon": "upload",
+                        "noCache": false,
+                        "link": null
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Monitor",
+            "path": "/monitor",
+            "hidden": false,
+            "redirect": "noRedirect",
+            "component": "Layout",
+            "alwaysShow": true,
+            "meta": {
+                "title": "系统监控",
+                "icon": "monitor",
+                "noCache": false,
+                "link": null
+            },
+            "children": [
+                {
+                    "name": "Online",
+                    "path": "online",
+                    "hidden": false,
+                    "component": "monitor/online/index",
+                    "meta": {
+                        "title": "在线用户",
+                        "icon": "online",
+                        "noCache": false,
+                        "link": null
+                    }
+                },
+                {
+                    "name": "Cache",
+                    "path": "cache",
+                    "hidden": false,
+                    "component": "monitor/cache/index",
+                    "meta": {
+                        "title": "缓存监控",
+                        "icon": "redis",
+                        "noCache": false,
+                        "link": null
+                    }
+                },
+                {
+                    "name": "Admin",
+                    "path": "Admin",
+                    "hidden": false,
+                    "component": "monitor/admin/index",
+                    "meta": {
+                        "title": "Admin监控",
+                        "icon": "dashboard",
+                        "noCache": false,
+                        "link": null
+                    }
+                },
+                {
+                    "name": "XxlJob",
+                    "path": "XxlJob",
+                    "hidden": false,
+                    "component": "monitor/xxljob/index",
+                    "meta": {
+                        "title": "任务调度中心",
+                        "icon": "job",
+                        "noCache": false,
+                        "link": null
+                    }
+                },
+                {
+                    "name": "CacheList",
+                    "path": "cacheList",
+                    "hidden": false,
+                    "component": "monitor/cache/list",
+                    "meta": {
+                        "title": "缓存列表",
+                        "icon": "redis-list",
+                        "noCache": false,
+                        "link": null
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Https://gitee.com/zhengkaixing/kxmall",
+            "path": "https://gitee.com/zhengkaixing/kxmall",
+            "hidden": false,
+            "component": "Layout",
+            "meta": {
+                "title": "官网",
+                "icon": "guide",
+                "noCache": false,
+                "link": "https://gitee.com/zhengkaixing/kxmall"
+            }
+        }
+    ]
+}

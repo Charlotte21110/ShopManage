@@ -32,8 +32,11 @@ const permission = {
     // 生成路由
     GenerateRoutes({ commit }) {
       return new Promise(resolve => {
-        // 向后端请求路由数据
-        getRouters().then(res => {
+        // 本地mock数据
+        const navbarData = require('./navbar.json');
+        // navbarData.then(res => {
+          const res = navbarData;
+          console.log('marisa 路由的', res.data);
           const sdata = JSON.parse(JSON.stringify(res.data))
           const rdata = JSON.parse(JSON.stringify(res.data))
           const sidebarRoutes = filterAsyncRouter(sdata)
@@ -46,7 +49,7 @@ const permission = {
           commit('SET_DEFAULT_ROUTES', sidebarRoutes)
           commit('SET_TOPBAR_ROUTES', sidebarRoutes)
           resolve(rewriteRoutes)
-        })
+        // })
       })
     }
   }
